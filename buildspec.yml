@@ -11,14 +11,14 @@ phases:
     commands:
       - echo Installing source NPM dependencies...
       - npm install
-  build:
-    commands:
-      - echo Build started on `date`
-      - echo Compiling the Node.js code
-      - npm start
-  post_build:
-    commands:
-      - echo Build completed on `date`
+  # build:
+  #   commands:
+  #     - echo Build started on `date`
+  #     - echo Compiling the Node.js code
+  #     - npm start
+  # post_build:
+  #   commands:
+  #     - echo Build completed on `date`
 # Include only the files required for your application to run.
 # artifacts:
 #   files:
